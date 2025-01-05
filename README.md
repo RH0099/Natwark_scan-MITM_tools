@@ -29,6 +29,12 @@ pip install mitmproxy
 
 pkg instoll python -y
 
+pkg instoll python3 -y
+
+pkg install dsniff -y &&
+
+pkg install arp-scan -y &&
+
 pkg instoll git -y
 
 pkg instoll nmap -y
@@ -43,9 +49,17 @@ cd Natwark_scan-MITM_tools
 
 #### **তৃতীয় ধাপ: টুল চালু করুন**  
 এখন স্ক্রিপ্টটি চালানোর জন্য নিচের কমান্ডটি ব্যবহার করুন:  
+####**Termux**####👇
 ```bash
 python Scanning_MITM.py
+```
 
+---
+
+####**Termux+Linux**####👇
+
+```bash
+python3 Advance_MITM.py
 ```
 
 ---
@@ -95,3 +109,6 @@ python Scanning_MITM.py
 3. শিখতে এটি ব্যবহার করুন, ক্ষতি করতে নয়।
 
 ---
+
+
+
