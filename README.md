@@ -15,4 +15,7 @@ pkg instoll nmap -y
 
 git clone https://github.com/RH0099/Natwark_scan-MITM_tools.git
 
+cd Natwark_scan-MITM_tools 
+
+python Scanning_MITM.py
 
