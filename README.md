@@ -31,9 +31,9 @@ pkg instoll python -y
 
 pkg instoll python3 -y
 
-pkg install dsniff -y &&
+pkg install dsniff -y 
 
-pkg install arp-scan -y &&
+pkg install arp-scan -y 
 
 pkg instoll git -y
 
